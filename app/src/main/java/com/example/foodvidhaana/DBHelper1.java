@@ -19,13 +19,13 @@ public class DBHelper1 extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase DB, int i, int ii) {
         DB.execSQL("drop Table if exists Userdetails");
     }
-    public Boolean insertuserdata(String name, String contact, String dob)
+    public Boolean insertuserdata(String name, String ingridients, String cooking)
     {
         SQLiteDatabase DB = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("name", name);
-        contentValues.put("contact", contact);
-        contentValues.put("dob", dob);
+        contentValues.put("ingridients", ingridients);
+        contentValues.put("cooking", cooking);
         long result=DB.insert("Userdetails", null, contentValues);
         if(result==-1){
             return false;
@@ -33,12 +33,12 @@ public class DBHelper1 extends SQLiteOpenHelper {
             return true;
         }
     }
-    public Boolean updateuserdata(String name, String contact, String dob)
+    public Boolean updateuserdata(String name, String ingridients, String cooking)
     {
         SQLiteDatabase DB = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
-        contentValues.put("contact", contact);
-        contentValues.put("dob", dob);
+        contentValues.put("contact", ingridients);
+        contentValues.put("dob", cooking);
         Cursor cursor = DB.rawQuery("Select * from Userdetails where name = ?", new String[]{name});
         if (cursor.getCount() > 0) {
             long result = DB.update("Userdetails", contentValues, "name=?", new String[]{name});
