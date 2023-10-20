@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SalsaInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/SalsaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/SalsaImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/salsa" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\n• 5 ripe tomatoes
+\n• 1 small onion
+\n• 2-3 cloves garlic
+\n• 2-3 jalapeño or serrano chilies (adjust to your spice preference)
+\n• 1/4 cup fresh cilantro (coriander) leaves
+\n• Juice of 1-2 limes (adjust to taste)
+\n• Salt, to taste
+\n\nOptional Additions:
+\n\n• 1/2 teaspoon cumin powder
+\n• 1/2 teaspoon sugar (if you prefer a touch of sweetness)
+\n\nProcedure:
+\n\n1. Start by roasting the tomatoes and chilies. You can do this by placing them on a hot
+skillet or griddle. Turn them occasionally until the skin blisters and begins to char.
+Alternatively, you can broil them in the oven for a few minutes. This step adds a smoky
+flavor to the salsa.
+\n\n2. While the tomatoes and chilies are roasting, peel and roughly chop the onion and garlic.
+Also, chop the fresh cilantro.
+\n\n3. Once the tomatoes and chilies are roasted, let them cool slightly. Then, remove the skin
+from the tomatoes and cut off the tops of the chilies.
+\n\n4. In a blender or food processor, combine the roasted tomatoes, chilies, onion, garlic, and
+cilantro. If you like a milder salsa, you can remove the seeds from the chilies.
+\n\n5. Add the lime juice to the blender, along with salt to taste. You can start with 1/2
+teaspoon of salt and adjust from there.
+\n\n6. If you'd like to add a touch of sweetness and some depth of flavor, you can also add the
+optional cumin and sugar at this stage.
+\n\n7. Blend the mixture until it reaches your desired consistency. Some people like a chunky
+salsa, while others prefer it smooth. You can adjust by pulsing the blender accordingly.
+\n\n8. Taste the salsa and adjust the seasoning, lime juice, or spiciness as needed.
+\n\n9. Transfer the salsa to a serving bowl and refrigerate for at least 30 minutes before serving.
+\n\n\nThis resting time allows the flavors to meld together.
+Serve the homemade salsa with tortilla chips, tacos, burritos, or any of your favorite Mexican
+dishes. Enjoy your freshly made salsa!  "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

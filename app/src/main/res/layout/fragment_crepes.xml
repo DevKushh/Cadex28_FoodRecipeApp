@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CrepesInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/CrepesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/CrepesImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/crepes" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\n•  1 cup all-purpose flour
+\n•  2 large eggs
+\n•  1 1/2 cups milk
+\n•  2 tablespoons melted butter
+\n•  1/4 teaspoon salt
+\n•  1 tablespoon granulated sugar (for sweet crepes, optional)
+\n•  Additional melted butter for cooking
+\n•  Your choice of fillings (e.g., Nutella, fresh fruit, whipped cream, cheese, ham, etc.)
+\n\nProcedure:
+\n\n1. Prepare the Batter:
+\n\n  In a large mixing bowl, whisk together the flour, eggs, milk, melted butter, salt, and sugar (if making sweet crepes). Mix until you have a smooth, thin batter. You can also use a blender for this step.
+\n Let the batter rest for about 30 minutes at room temperature. This allows the flour to fully absorb the liquid and results in a smoother batter.
+\n\n2. Cook the Crepes:
+\n\*  Heat a non-stick skillet or crepe pan over medium-high heat. You can add a little melted butter to coat the pan, but this is optional if your pan is truly non-stick.
+\n*  Pour a small amount of batter into the center of the hot pan, swirling it around quickly to spread it thinly across the bottom. The goal is to create a very thin layer of batter.
+\n*  Cook for about 1-2 minutes or until the edges of the crepe start to lift from the pan and the bottom is lightly golden. Use a spatula to flip the crepe and cook the other side for an additional 1-2 minutes, or until golden.
+\n*  Remove the cooked crepe from the pan and set it aside on a plate. Repeat the process with the remaining batter, adding a little more butter to the pan as needed to prevent sticking.
+\n\n3. Serve the Crepes:
+\n\n*  Once all the crepes are cooked, fill them with your choice of sweet or savory fillings.
+\n*  For sweet crepes, you can fill them with Nutella, fresh fruit, jam, whipped cream, or a sprinkle of powdered sugar.
+\n*  For savory crepes, consider fillings like cheese, ham, spinach, mushrooms, or smoked salmon.
+\n\n4.  Fold the crepes into quarters or roll them up, and they're ready to serve.
+\n\n\nCrepes are highly customizable, and you can get creative with your fillings. Enjoy your homemade crepes with your favorite ingredients!"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

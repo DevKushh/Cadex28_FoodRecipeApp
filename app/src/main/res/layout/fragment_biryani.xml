@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/BiryaniInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/BiryaniLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/BiryaniImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/biryani" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="INGREDIENTS:
+\n\nFor Marinating Chicken:
+\n•  500g chicken pieces (bone-in or boneless)
+\n•  1 cup yogurt
+\n•  1 teaspoon ginger-garlic paste
+\n•  1/2 teaspoon turmeric powder
+\n•  1 teaspoon red chili powder
+\n•  1 teaspoon garam masala
+\n•  Salt to taste
+\n\nFor Rice.
+\n•  2 cups basmati rice
+\n•  4 cups water
+\n•  2-3 green cardamom pods
+\n•  2-3 cloves
+\n•  1-inch cinnamon stick
+\n•  1 bay leaf
+\n• Salt to taste.
+\n\nFor Biryani:
+\n•  2-3 tablespoons vegetable oil or ghee.
+\n•  2 large onions, thinly sliced
+\n•  2-3 green chilies, slit
+\n•  1 teaspoon ginger-garlic paste
+\n•  1 cup fresh coriander leaves, chopped
+\n•  1 cup fresh mint leaves, chopped
+\n•  Saffron strands soaked in 2 tablespoons warm milk (optional)
+\n•  Ghee for garnish (optional)
+\n\nWhole Spices (for biryani):
+\n•  2-3 green cardamom pods
+\n•  2-3 cloves
+\n•  1-inch cinnamon stick
+\n•  1 bay leaf
+\n\nPROCEDURE:
+\n\n1. Wash the basmati rice thoroughly, soak it in water for 30 minutes, and then drain.
+\n2. Marinate the chicken: In a bowl, combine the chicken with yogurt, ginger garlic paste, turmeric, red chili powder, garam masala, and salt. Let it marinate for at least 30 minutes.
+\n3. Cook the rice: In a large pot, bring 4 cups of water to a boil. Add the rice, whole spices (cardamom, cloves, cinnamon, and bay leaf), and salt. Cook the rice until it's 70-80% cooked. Drain the water and set the rice aside.
+\n4. Heat oil or ghee in a large, heavy-bottomed pan. Add the sliced onions and cook until they turn golden brown and crispy. Remove some fried onions for garnish and set them aside.
+\n5. Add the marinated chicken to the pan and cook for 5-7 minutes until it changes color.
+\n6. Add ginger-garlic paste and green chilies. Sauté for a few minutes until the raw smell disappears.
+\n7. Layer the biryani: Spread a layer of partially cooked rice over the chicken. Sprinkle half of the fresh mint and coriander leaves.
+\n8. Repeat the process with another layer of rice and the remaining mint and coriander leaves. Optionally, drizzle the saffron milk on the top layer of rice and garnish with a little ghee.
+\n9. Cover the pan with a tight-fitting lid or seal it with dough to trap the steam.
+\n10. Cook on low heat for 25-30 minutes until the chicken is cooked and the rice is fully done.
+\n11. Once cooked, fluff the biryani gently with a fork, mixing the layers.
+\n12. Garnish with the fried onions you set aside earlier.
+\n\nThis larger batch of chicken biryani should serve 3-4 members."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

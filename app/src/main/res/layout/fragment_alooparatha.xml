@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/AlooParathaInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/AlooParathaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/BiryaniImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/alooparatha" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="Ingredients:
+            \n\nFor the Paratha Dough:
+            \n\n• 2 cups whole wheat flour (atta)
+            \n• Water, as needed
+            \n• A pinch of salt
+            \n\nFor the Potato Filling:
+            \n\n• 4 large potatoes, boiled, peeled, and mashed
+            \n• 1 small onion, finely chopped
+            \n• 2-3 green chilies, finely chopped (adjust to your spice preference)
+            \n• 1/2 teaspoon cumin seeds
+            \n• 1/2 teaspoon red chili powder
+            \n• 1/2 teaspoon garam masala
+            \n• 1/2 teaspoon turmeric powder
+            \n• 1 tablespoon fresh coriander leaves, chopped
+            \n• Salt to taste
+            \n\n\nProcedure:
+            \n\nFor the Paratha Dough:
+            \n\n   In a mixing bowl, combine the whole wheat flour and a pinch of salt. Gradually add water and knead to form a soft and pliable dough. Cover it with a damp cloth and set it aside for about 20-30 minutes.
+            \n\nFor the Potato Filling:
+            \n\n   In another bowl, mix the mashed potatoes with chopped onions, green chilies, cumin seeds, red chili powder, garam masala, turmeric powder, fresh coriander leaves, and salt.Combine everything well to create a uniform filling.
+            \n\nTo Make Aloo Paratha:
+            \n\n1. Divide the dough into 12 equal portions and roll them into smooth balls.
+            \n2. Take one dough ball and roll it into a small circle (about 4 inches in diameter) on a lightly floured surface.
+            \n3. Place a portion of the potato filling in the center of the rolled dough.
+            \n4. Bring the edges of the dough together to seal the filling and form a ball.
+            \n5. Gently flatten the stuffed dough ball with your hands.
+            \n6. Roll it out into a paratha, about 6-7 inches in diameter. Be gentle to avoid tearing the dough and spilling the filling.
+            \n7. Heat a griddle or flat pan over medium-high heat.
+            \n8. Place the rolled paratha on the hot griddle and cook it until you see bubbles forming on the surface. Flip it and apply a little ghee or oil on this side.
+            \n9. Flip again, applying ghee or oil on the other side. Cook until both sides are golden brown and cooked through.
+            \n10. Repeat the process for the remaining dough and filling to make the rest of the parathas.
+            \n\nServe the Aloo Parathas hot with yogurt, pickle, or chutney. Enjoy your homemade Aloo Paratha for 6 members!"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

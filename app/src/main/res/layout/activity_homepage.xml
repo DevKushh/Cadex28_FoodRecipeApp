@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040A02"
+    tools:context="HomepageActivity">
+
+    <LinearLayout
+        android:id="@+id/MainLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="vertical"
+        tools:context=".HomepageActivity">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/titleBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/TitleBoxImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#253031"
+                android:contentDescription="Title Page"
+                android:scaleType="centerCrop"
+                android:src="@drawable/background"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/TitleBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="5dp"
+                android:text="Chef's Welcome....!"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/SubitleBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="casual"
+                android:padding="5dp"
+                android:text="- Explore the Art of Cooking"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                tools:ignore="TextSizeCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Part 1 end -->
+
+        <TextView
+            android:id="@+id/cousinesBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Continental Cousines"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="normal" />
+        <!-- Part 2 end -->
+        <TextView
+            android:id="@+id/indianBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Indian"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="1000dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/biryaniImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="b"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundbiryani" />
+
+                    <TextView
+                        android:id="@+id/biryaniBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="ChickenBiryani"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/kebabImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="Kebab"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/roundkabab" />
+
+                    <TextView
+                        android:id="@+id/kebabBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="ChickenKabab"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="ChickenKabab"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/alooparathaImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="MuttarPaneer"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundalooparatha" />
+
+                    <TextView
+                        android:id="@+id/alooparathaBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="AlooParatha"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="AlooParatha"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:padding="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/matarpaneerImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="MuttarPaneer"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundmatarpaneer" />
+
+                    <TextView
+                        android:id="@+id/matarpaneerBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="MatarPaneer"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/gulabjamoonImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="GulabJamoon"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundjamoon" />
+
+                    <TextView
+                        android:id="@+id/jamoonBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="GulabJamoon"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="GulabJamoon"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <!-- Part 3 end -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Chinese"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="1000dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/chowmeinImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="chowmein"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundchowmein" />
+
+                    <TextView
+                        android:id="@+id/chowmeinBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Chowmein"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/dumplingsImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="dumplings"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/rounddumplings" />
+
+                    <TextView
+                        android:id="@+id/dumplingsBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="dumplings"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Dumplings"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/mapotofuImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="mapotofu"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundmapotofu" />
+
+                    <TextView
+                        android:id="@+id/mapotofuBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Mapotofu"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/pineapplebunImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="pineapplebun"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundpineapplebun" />
+
+                    <TextView
+                        android:id="@+id/pineapplebunBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Pineapplebun"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/szechuanchickenImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundszechuanchicken" />
+
+                    <TextView
+                        android:id="@+id/szechuanchickenBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Szechuanchicken"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <!-- Part 4 end -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Mexican"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="1000dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/cevicheImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="b"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundceviche" />
+
+                    <TextView
+                        android:id="@+id/cevicheBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Ceviche"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/guacamoleImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="guacamole"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundguacamole" />
+
+                    <TextView
+                        android:id="@+id/guacamoleBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="guacamole"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Guacamole"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/quesadillasImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="quesadillas"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundquesadillas" />
+
+                    <TextView
+                        android:id="@+id/quesadillasBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Quesadillas"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/salsaImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="salsa"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundsalsa" />
+
+                    <TextView
+                        android:id="@+id/salsaBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Salsa"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/tacosImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundtacos" />
+
+                    <TextView
+                        android:id="@+id/tacosBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Tacos"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <!-- Part 5 end -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Italian"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="1000dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/lasagnaImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="lasagna"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundlasagna" />
+
+                    <TextView
+                        android:id="@+id/lasagnaBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Lasagna"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/ossobucoImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="ossobuco"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundossobuco" />
+
+                    <TextView
+                        android:id="@+id/ossobucoBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="ossobuco"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Ossobuco"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/pastaImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="pasta"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundpasta" />
+
+                    <TextView
+                        android:id="@+id/pastaBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Pasta"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/pizzaImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="pizza"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundpizza" />
+
+                    <TextView
+                        android:id="@+id/pizzaBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Pizza"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/truffles"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/trufflesImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundtruffles" />
+
+                    <TextView
+                        android:id="@+id/trufflesBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Truffles"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <!-- Part 6 end -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="French"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="1000dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/cassouletImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="cassoulet"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundcassoulet" />
+
+                    <TextView
+                        android:id="@+id/cassouletBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Cassoulet"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/crepesImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="crepes"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundcrepes" />
+
+                    <TextView
+                        android:id="@+id/crepesBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="crepes"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="crepes"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/croissantImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="croissant"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundcroissant" />
+
+                    <TextView
+                        android:id="@+id/croissantBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Croissant"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/escargotImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:contentDescription="escargot"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundescargot" />
+
+                    <TextView
+                        android:id="@+id/escargotBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Escargot"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/ratatouilleImgBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundbutton"
+                        android:cropToPadding="false"
+                        android:requiresFadingEdge="vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/roundratatouille" />
+
+                    <TextView
+                        android:id="@+id/ratatouilleBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:padding="5dp"
+                        android:text="Ratatouille"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <!-- Part 7 end -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Trending Cousines"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:elevation="10dp">
+
+            <ImageView
+                android:id="@+id/TBiryaniImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/biryani" />
+
+            <Button
+                android:id="@+id/TBiryaniBtn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="195dp"
+                android:background="#050706"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="end"
+                android:hapticFeedbackEnabled="false"
+                android:padding="10dp"
+                android:text="Biryani                                 -> Details "
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#070404"
+                app:backgroundTintMode="add"
+                tools:ignore="HardcodedText" />
+        </androidx.cardview.widget.CardView>
+        <!-- Part 8 end -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            app:cardCornerRadius="@dimen/cardview_default_elevation">
+            <ImageView
+                android:id="@+id/TPizzaImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pizza" />
+            <Button
+                android:id="@+id/TPizzaBtn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="195dp"
+                android:background="#000000"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="end"
+                android:hapticFeedbackEnabled="false"
+                android:padding="10dp"
+                android:text="Pizza                                       -> Details"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#000000"
+                app:backgroundTintMode="add"
+                tools:ignore="HardcodedText"/>
+        </androidx.cardview.widget.CardView>
+        <!-- Part 9 end -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="15dp"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/TTrufflesImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/truffles" />
+
+            <Button
+                android:id="@+id/TTrufflesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="195dp"
+                android:background="#000000"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="end"
+                android:hapticFeedbackEnabled="false"
+                android:padding="10dp"
+                android:text="Truffles                             -> Details "
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#000000"
+                app:backgroundTintMode="add"
+                tools:ignore="HardcodedText" />
+        </androidx.cardview.widget.CardView>
+        <!-- Part 10 end -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="15dp"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/TCrepesImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/crepes" />
+
+            <Button
+                android:id="@+id/TCrepesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="195dp"
+                android:background="#000000"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="end"
+                android:hapticFeedbackEnabled="false"
+                android:padding="10dp"
+                android:text="Crepes                        -> Details "
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#000000"
+                app:backgroundTintMode="add"
+                tools:ignore="HardcodedText" />
+        </androidx.cardview.widget.CardView>
+        <!-- Part 11 end -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="15dp"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/TKebabImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/kabab" />
+
+            <Button
+                android:id="@+id/TKababBtn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="195dp"
+                android:background="#000000"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="end"
+                android:hapticFeedbackEnabled="false"
+                android:padding="10dp"
+                android:text="Kabab                                -> Details "
+                android:textAlignment="viewEnd"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:backgroundTint="#000000"
+                app:backgroundTintMode="add"
+                tools:ignore="HardcodedText" />
+        </androidx.cardview.widget.CardView>
+        <!-- Part 12 end -->
+    </LinearLayout>
+</ScrollView>

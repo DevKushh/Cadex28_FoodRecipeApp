@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CroissantInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/CroissantLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/CroissantImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/croissant" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\nFor the Dough:
+\n\n• 3 1/2 cups all-purpose flour
+\n• 1/4 cup granulated sugar
+\n• 1 packet (2 1/4 teaspoons) active dry yeast
+\n• 1 1/4 cups whole milk, warmed to about 110°F (43°C)
+\n• 1 teaspoon salt
+\n• 1 1/4 cups unsalted butter, cold
+\n\nFor the Egg Wash:
+\n• 1 egg
+\n• 1 tablespoon water
+\n\nProcedure:
+\n\n1. Prepare the Dough:
+\n\n*  In a mixing bowl, combine the flour, sugar, and salt.
+\n*  In a separate bowl, dissolve the yeast in the warm milk. Let it sit for about 5-10 minutes until it becomes frothy.
+\n*  Pour the yeast mixture into the dry ingredients and mix to form a dough.
+\n*  Knead the dough on a floured surface for about 5-7 minutes until it becomes smooth and elastic. If it's too sticky, you can add a little more flour.
+\n*  Shape the dough into a rectangle, wrap it in plastic wrap, and refrigerate it for at least 1 hour.
+\n\n2. Prepare the Butter Layer:
+\n\n*  Place the cold, unsalted butter between two sheets of parchment paper and pound it with a rolling pin until it's a rectangle of approximately the same size as your dough.
+\n*  Put the butter layer in the refrigerator to keep it cold.
+\n\n3. Make the Croissant Layers:
+\n\n*  Roll out the chilled dough on a floured surface into a larger rectangle, about twice the size of the butter layer.
+\n*  Place the butter layer on half of the dough and fold the other half over the top of the butter. Press the edges to seal.
+\n*  Roll the dough into a long rectangle and fold it in thirds like a letter. This is one turn.
+\n*  Repeat the rolling and folding process for a total of three turns. Refrigerate the dough for 30 minutes between each turn.
+\n\n4. Shape the Croissants:
+\n\n*  After the final turn, roll the dough into a large rectangle, about 1/4-inch thick.
+\n*  Cut the dough into triangles. Starting at the wide end, roll each triangle up into a croissant shape.
+\n*  Place the croissants on a baking sheet lined with parchment paper.
+\n\n5. Let the Croissants Rise:
+\n\n*  Cover the croissants with a clean kitchen towel and let them rise at room temperature for about 1-2 hours, or until they double in size.
+\n\n6. Preheat the Oven:
+\n\n* Preheat your oven to 400°F (200°C).
+\n\n7. Brush with Egg Wash:
+\n\n*  In a small bowl, beat the egg with 1 tablespoon of water. Brush the egg wash over the tops of the croissants.
+\n\n8. Bake the Croissants:
+\n\n*  Place the croissants in the preheated oven and bake for about 15-20 minutes or until they are golden brown and crispy.
+\n\n9.  Serve:
+\n\n\nAllow the croissants to cool slightly before serving. Enjoy your homemade croissants for 5 members! They're best when served fresh and warm."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

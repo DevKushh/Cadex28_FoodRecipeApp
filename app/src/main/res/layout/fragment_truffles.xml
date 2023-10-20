@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/TrufflesInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/TrufflesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/TrufflesImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/truffles" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\nFor the Truffle Filling:
+\n\n• 200g good quality dark chocolate (70% cocoa or higher), finely chopped
+\n• 1/2 cup heavy cream
+\n• 2 tablespoons unsalted butter
+\n• 1 teaspoon pure vanilla extract
+\n\nFor Coating:
+\n\n• Cocoa powder
+\n• Finely chopped nuts (e.g., almonds, pistachios, or walnuts)
+\n• Shredded coconut
+\n• Unsweetened cocoa powder
+\n• Powdered sugar
+\n\nProcedure:
+\n\n1. Prepare the Truffle Filling:
+\n\n1. In a small saucepan, heat the heavy cream over medium-low heat until it's just
+about to boil. Be careful not to scorch it.
+\n\n2. Remove the cream from the heat and pour it over the finely chopped dark
+chocolate in a heatproof bowl.
+\n\n3. Let it sit for a minute to melt the chocolate. Then, gently stir until the mixture
+is smooth and well combined.
+\n\n4. Add the unsalted butter and vanilla extract to the mixture. Stir until the butter
+is fully melted and incorporated.
+\n\n5. Allow the mixture to cool to room temperature, and then refrigerate it for at
+least 2-3 hours or until it becomes firm enough to handle.
+\n\n2. Form the Truffles:
+\n\n1. Once the mixture is firm, use a teaspoon or a melon baller to scoop out
+portions of the ganache.
+\n2. Quickly roll each portion into a small ball, shaping it between your hands.
+Work as quickly as you can, as the heat from your hands can melt the truffle
+mixture.
+\n3. Place the truffle balls on a tray lined with parchment paper and return them to
+the refrigerator for another 30 minutes to firm up.
+\n\n3. Coat the Truffles:
+\n\n1. Prepare separate bowls with your chosen coatings: cocoa powder, chopped
+nuts, shredded coconut, and powdered sugar.
+\n2. Roll each truffle in one of the coatings until it's well covered. You can get
+creative with the coatings or leave some plain.
+\n3. Return the coated truffles to the refrigerator for a final chill for about 15-30
+minutes.
+\n4. Serve:
+\n\nServe your homemade truffles on a decorative platter or in small paper cups. Enjoy!
+\n\n\nThese truffles are rich and indulgent, making them the perfect treat for a special
+occasion or as a delightful gift for friends and family.  "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

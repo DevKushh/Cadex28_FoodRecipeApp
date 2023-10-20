@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LasagnaInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/LasagnaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/LasagnaImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lasagna" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\n• 1 pound ground beef or Italian sausage (or a combination)
+\n• 1 medium onion, finely chopped
+\n• 3 cloves garlic, minced
+\n• 1 can (28 ounces) crushed tomatoes
+\n• 1 can (6 ounces) tomato paste
+\n• 2 teaspoons dried oregano
+\n• 2 teaspoons dried basil
+\n• Salt and pepper to taste
+\n• 2 cups ricotta cheese
+\n• 1 egg
+\n• 3 cups shredded mozzarella cheese
+\n• 1 cup grated Parmesan cheese
+\n• Fresh basil or parsley, for garnish (optional)
+\n\nProcedure:
+\n\n1. Preheat your oven to 375°F (190°C).
+\n2. In a large skillet, cook the ground beef or sausage over medium-high heat until browned. Break it into small pieces as it cooks. Remove any excess fat from the pan.
+\n3. Add the chopped onion and minced garlic to the skillet and sauté for a few minutes until they become translucent.
+\n4. Stir in the crushed tomatoes, tomato paste, dried oregano, dried basil, salt, and pepper. Simmer the sauce for about 15-20 minutes, stirring occasionally.
+\n5. In a separate bowl, mix the ricotta cheese with one beaten egg.
+\n6. To assemble the lasagna, spread a small amount of the meat sauce in the bottom of a 9x13-inch baking dish to prevent sticking.
+\n7. Place three lasagna noodles on top of the sauce.
+\n8. Spread a layer of the ricotta mixture over the noodles, followed by a layer of the meat sauce and a layer of mozzarella and Parmesan cheese.
+\n9. Repeat the layering process with noodles, ricotta, meat sauce, and cheese. You should have about three layers in total.
+\n10. Cover the baking dish with aluminum foil and bake for about 25-30 minutes.
+\n11. Remove the foil and bake for an additional 10-15 minutes until the lasagna is bubbly and the cheese is golden brown.
+\n12. Let the lasagna rest for about 10 minutes before serving. This helps the layers set, making it easier to cut.
+\n13. Garnish with fresh basil or parsley, if desired, before serving.
+\n\n\nThis recipe should provide enough lasagna for 5 members. "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

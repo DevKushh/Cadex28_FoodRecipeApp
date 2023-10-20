@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CassouletInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/cassouletLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/CassouletImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cassoulet" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\n• 2 cups dried white beans (Great Northern or cannellini), soaked overnight and drained
+\n• 4 cups chicken or vegetable broth
+\n• 1 pound boneless pork shoulder, cut into chunks
+\n• 4 duck legs or duck confit
+\n• 4 sausages (such as Toulouse sausages or any flavorful pork sausages)
+\n• 1/2 pound pancetta or bacon, diced
+\n• 1 large onion, chopped
+\n• 4 cloves garlic, minced
+\n• 2 carrots, diced
+\n• 2 celery stalks, diced
+\n• 2 bay leaves
+\n• 2 sprigs fresh thyme
+\n• 1/2 cup breadcrumbs
+\n• Salt and black pepper to taste
+\n• Olive oil for cooking
+\n• Chopped fresh parsley for garnish
+\n\nProcedure:
+\n\n1. Preheat the Oven:
+\n\nPreheat your oven to 325°F (165°C).
+\n\n2. Cook the Beans:
+\n\nIn a large pot, add the drained white beans and cover with the chicken or vegetable broth. Bring to a boil.
+\nReduce the heat and simmer for about 30-40 minutes or until the beans are just tender. Drain the beans and set them aside.
+\n\n3. Brown the Meats:
+\n\n1. In a large ovenproof casserole dish or Dutch oven, heat a little olive oil over medium-high heat.
+\n2. Brown the chunks of pork shoulder, duck legs, sausages, and diced pancetta or bacon. Remove them from the pot and set them aside.
+\n\n4. Sauté the Vegetables:
+\n\nIn the same pot, add chopped onion, minced garlic, diced carrots, and diced celery. Sauté for about 5 minutes until they start to soften.
+\nAdd the thyme and bay leaves to the pot.
+\n\n5. Assemble and Bake:
+\n\n1. Return the browned meats to the pot with the sautéed vegetables.
+\n2. Add the cooked white beans and mix everything together. Season with salt and blackpepper to taste.
+\n3. Sprinkle the breadcrumbs evenly over the top.
+\n4. Cover the pot and place it in the preheated oven.
+\n5. Bake for about 2 to 2.5 hours until the cassoulet is bubbling, the top is browned, and the meats are tender.
+\n\n6. Serve:
+\n\n1. Remove the cassoulet from the oven, discard the bay leaves and thyme sprigs, and garnish with chopped fresh parsley.
+\n2. Serve the cassoulet hot, either directly from the pot or spooned into individual serving dishes.
+\n\nCassoulet is traditionally served as a one-pot meal. It's hearty and rich, making it perfect for a satisfying family dinner. Enjoy your homemade cassoulet!"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

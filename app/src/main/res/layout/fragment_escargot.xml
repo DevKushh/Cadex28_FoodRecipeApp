@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/EscargotInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/EscargotLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/EscargotImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/escargot" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\n• 25 canned or pre-cooked escargot (usually sold in a can or jar)
+\n• 5 cloves of garlic, finely minced
+\n• 2 tablespoons fresh parsley, finely chopped
+\n• 1/2 cup unsalted butter, at room temperature
+\n• Salt and freshly ground black pepper, to taste
+\n• 5 small escargot serving dishes (typically with small wells to hold the escargot)
+\n• 1 French baguette or crusty bread for serving
+\n\nProcedure:
+\n\n1. Preheat the Oven:
+\n\nPreheat your oven to 400°F (200°C) to warm up the escargot.
+\n\n2. Prepare the Escargot:
+\n\n*  Drain the canned or pre-cooked escargot.
+\n*  Rinse them under cold water to remove any excess canning liquid.
+\n\n3. Make the Garlic Butter:
+\n\n*  In a mixing bowl, combine the softened unsalted butter, minced garlic, and chopped fresh parsley. Season the mixture with a pinch of salt and freshly ground black pepper to taste.
+\n*  Mix all the ingredients thoroughly to create a flavorful garlic herb butter.
+\n\n4. Assemble the Escargot:
+\n\n*  Place an escargot into each well of the escargot serving dishes.
+\n*  Spoon a generous amount of the garlic herb butter mixture over each escargot.
+\n\n5. Bake the Escargot:
+\n* Place the filled escargot dishes in the preheated oven and bake for about 10-12 minutes or until the butter is bubbling, and the escargot are heated through.
+\n\n6. Serve the Escargot:
+\n\n*  Remove the escargot dishes from the oven.
+\n*  Carefully serve each dish while still hot. Typically, escargot is served with a special escargot fork and tongs to hold the shells steady while you use the fork to extract the escargot.
+\n*  Provide small forks, toothpicks, or small pieces of bread for scooping out the escargot and sopping up the delicious garlic herb butter.
+\n*  Serve with slices of French baguette or crusty bread to soak up the flavorful butter.
+\n\n\nEnjoy your homemade escargot as a delicious and indulgent appetizer! "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

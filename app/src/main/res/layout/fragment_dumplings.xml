@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/DumplingsInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/DumplingsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/DumplingsImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dumplings" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\nFor the Dumpling Filling:
+\n\n• 1/2 pound ground pork or ground chicken (or use tofu for a vegetarian option)
+\n• 1 cup finely chopped Napa cabbage
+\n• 2 green onions, finely chopped
+\n• 2 cloves garlic, minced
+\n• 1-inch piece of fresh ginger, grated
+\n• 2 tablespoons soy sauce
+\n• 1 tablespoon sesame oil
+\n• 1/2 teaspoon sugar
+\n• Salt and pepper to taste
+\n\nFor the Dumpling Wrappers:
+\n\n• 1 package of round dumpling wrappers (about 30-40 wrappers)
+\n• Water for sealing
+\n\nFor Cooking the Dumplings:
+\n\n• 2-3 tablespoons vegetable oil
+\n• 1/2 cup water
+\n\nProcedure:
+\n\n1. Prepare the Filling:
+\n\n• In a large mixing bowl, combine the ground meat (or tofu), finely chopped Napa cabbage, green onions, garlic, and grated ginger.
+\n• Add soy sauce, sesame oil, sugar, salt, and pepper to the mixture.
+\n• Mix everything well to combine. The filling is now ready.
+\n\n2. Assemble the Dumplings:
+\n\n• Take a dumpling wrapper and place about a teaspoon of filling in the center.
+\n• Dip your finger in water and moisten the edge of the wrapper.
+\n• Fold the wrapper in half, creating a half-moon shape.
+\n• Press the edges together to seal the dumpling, ensuring there are no openings.
+\n\n3. Cook the Dumplings:
+\n\n• Heat a large non-stick skillet over medium-high heat.
+\n• Add 2-3 tablespoons of vegetable oil to the skillet.
+\n• Place the dumplings in a single layer in the skillet. Make sure they're not touching each other.
+\n• Cook for about 2-3 minutes or until the bottoms turn golden brown.
+\n• Add 1/2 cup of water to the skillet, quickly cover with a lid, and reduce the heat to low.
+\n• Steam the dumplings for 7-8 minutes, or until the water has evaporated.
+\n\n4. Serve:
+\n\n• Carefully remove the dumplings from the skillet once they are cooked. They should be crispy on the bottom and soft on top.
+\n• Serve the dumplings hot with soy sauce, rice vinegar, or your favorite dipping sauce.
+\n\n\nYou can customize the filling to suit your tastes by adding other ingredients like shrimp,
+mushrooms, or water chestnuts. Enjoy your homemade dumplings! "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/PastaInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/PastaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/PastaImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pasta" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\n• 16 ounces (1 pound) of pasta (such as spaghetti, fettuccine, penne, or your preferred type)
+\n• Water
+\n• Salt
+\n• Your choice of pasta sauce (marinara, Alfredo, pesto, etc.)
+\n• Grated Parmesan or Pecorino cheese (optional, for serving)
+\n\nProcedure:
+\n\n1. Boil the Water:
+\n\n• Fill a large pot with water. You'll need enough water to fully submerge the pasta without overcrowding the pot.
+\n• Place the pot on the stove and bring the water to a rolling boil over high heat. Add a generous amount of salt (about 1-2 tablespoons) to the boiling water. This is your only opportunity to season the pasta, so don't skimp on the salt. The pasta will absorb the seasoning during cooking.
+\n\n2. Add the Pasta:
+\n• Once the water is boiling and seasoned, add the pasta to the pot. Stir gently to prevent sticking, and follow the package instructions for the cooking time. Most pasta will take about 8-12 minutes to reach the desired tenderness, but it can vary depending on the type and brand.
+\n\n3. Cook the Pasta:
+\n\n• While the pasta is cooking, occasionally stir it to prevent sticking. Taste a piece a minute or two before the suggested cooking time to check for doneness. The pasta should be al dente, which means it's firm tothe bite but not too hard.
+\n\n4. Drain the Pasta:
+\n\n• When the pasta is done, turn off the heat and carefully drain it into a colander in the sink. Do not rinse the pasta; the starch on the surface helps the sauce adhere.
+\n\n5. Serve the Pasta:
+\n\n• Return the drained pasta to the pot, add your choice of pasta sauce,and gently toss to combine. You can warm the sauce by heating itseparately or directly in the pot with the pasta.
+\n\n6. Garnish and Serve:
+\n\n\n• Serve the pasta in individual plates or bowls. You can garnish it withgrated Parmesan or Pecorino cheese if desired.This basic pasta recipe is for 5 members and can be adapted with different types ofpasta and sauces to suit your taste.  "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

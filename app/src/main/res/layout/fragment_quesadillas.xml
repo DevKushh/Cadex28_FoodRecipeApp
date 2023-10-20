@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/QuesadillasInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/QuesadillasLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/QuesadillasImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quesadillas" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\n• 10 large flour tortillas (you can adjust the quantity based on your preference)
+\n\• 2 cups shredded cheese (common options include cheddar, Monterey Jack, or a Mexican cheese blend)
+\n• 2 cups of your choice of fillings (e.g., cooked chicken, cooked beef, sautéed vegetables, beans, or a combination)
+\n• 2 tablespoons cooking oil (vegetable oil or cooking spray)
+\n• Salsa, guacamole, sour cream, or other desired toppings for serving Procedure:
+\n1. Prepare the Fillings:
+\n• If you're using meats, ensure they are fully cooked and seasoned to your liking.
+\n• If you're using vegetables, sauté them until they're tender and season them as
+desired.
+\n\n2. Assemble the Quesadillas:
+\n\n• Lay out one flour tortilla on a clean surface.
+\n• Sprinkle a portion of shredded cheese evenly on one-half of the tortilla.
+\n• Add a portion of your chosen fillings on top of the cheese.
+\n• Fold the other half of the tortilla over the cheese and fillings to create a half moon shape.
+\n\n3. Cook the Quesadillas:
+\n\n• Heat a large skillet or griddle over medium-high heat and add a little cooking oil or use cooking spray.
+\n• Place the assembled quesadilla in the skillet and cook for about 2-3 minutes on each side, or until the tortilla is golden brown, and the cheese is melted.
+\n\n4. Repeat for Additional Quesadillas:
+\n• Continue making quesadillas using the remaining tortillas, cheese, and fillings, cooking them one at a time or in batches.
+\n\n5. Serve:
+\n\n• Once each quesadilla is cooked, remove it from the skillet and cut it into wedges.
+\n• Serve the quesadilla wedges with your choice of toppings, such as salsa, guacamole, and sour cream.
+
+\n\n\nQuesadillas are a versatile dish, and you can get creative with the fillings. You can also make
+them as simple or as gourmet as you like. Enjoy your homemade quesadillas for 5 members! "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

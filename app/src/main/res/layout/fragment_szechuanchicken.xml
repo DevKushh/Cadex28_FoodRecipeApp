@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/szechuanchickenInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/SzechuanchickenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/MapotofuImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/szechuanchicken" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\nFor the Chicken Marinade:
+\n• 1.5 pounds boneless, skinless chicken breasts or thighs, cut into bite-sized pieces
+\n• 2 tablespoons soy sauce
+\n• 1 tablespoon Chinese cooking wine (Shaoxing wine) or dry sherry
+\n• 1 tablespoon cornstarch
+\n\nFor the Szechuan Sauce:
+\n\n• 3 tablespoons soy sauce
+\n• 2 tablespoons Chinkiang black vinegar or rice vinegar
+\n• 2 tablespoons sugar
+\n• 1 tablespoon hoisin sauce
+\n• 1 tablespoon oyster sauce
+\n• 1 teaspoon sesame oil
+\n• 1/2 teaspoon Szechuan peppercorns (optional for a numbing heat)
+\n• 2-3 tablespoons vegetable oil for stir-frying
+\n\nFor the Stir-fry:
+\n\n• 1 red bell pepper, sliced
+\n• 1 green bell pepper, sliced
+\n• 1 medium carrot, julienned
+\n• 2-3 cloves garlic, minced
+\n• 1-inch piece of ginger, minced
+\n• 2-3 dried red chilies (adjust to your spice preference)
+\n• 1/2 cup unsalted peanuts (optional)
+\n• Fresh cilantro leaves for garnish (optional)
+\n\nProcedure:
+\n\nMarinate the Chicken:
+\n\n1. In a bowl, combine the chicken pieces with 2 tablespoons of soy sauce, 1 tablespoon of
+Chinese cooking wine (or sherry), and 1 tablespoon of cornstarch. Mix well and let it
+marinate for at least 15-20 minutes.
+Prepare the Szechuan Sauce:
+\n\n2. In another bowl, combine 3 tablespoons of soy sauce, 2 tablespoons of black vinegar (or
+rice vinegar), 2 tablespoons of sugar, 1 tablespoon of hoisin sauce, 1 tablespoon of oyster
+sauce, 1 teaspoon of sesame oil, and Szechuan peppercorns (if using). Mix until well
+combined. Taste and adjust the flavors according to your preference.
+Stir-fry the Chicken:
+\n\n3. Heat 2-3 tablespoons of vegetable oil in a wok or large skillet over high heat.
+\n\n4. Add the marinated chicken pieces and stir-fry until they are cooked through and slightly
+browned, about 4-5 minutes. Remove the chicken from the wok and set it aside.
+Stir-fry the Vegetables:
+\n\n5. In the same wok, add more oil if needed. Add the dried red chilies, minced garlic, and
+ginger. Stir-fry for about 30 seconds until fragrant.
+\n\n6. Add the sliced red and green bell peppers and julienned carrots. Stir-fry for another 2-3
+minutes until the vegetables are slightly tender.
+Combine and Finish:
+\n\n7. Return the cooked chicken to the wok and mix it with the stir-fried vegetables.
+\n\n8. Pour the prepared Szechuan sauce over the chicken and vegetables. Stir-fry for another
+2-3 minutes, ensuring everything is well coated with the sauce.
+\n\n9. If using, add the unsalted peanuts and stir until they are heated through.
+\n\n10. Serve the Szechuan Chicken hot, garnished with fresh cilantro leaves, if desired.
+\n\n\nEnjoy your homemade Szechuan Chicken with rice or noodles for 5 members! Adjust the amount
+of dried red chilies to control the spiciness to your liking. "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

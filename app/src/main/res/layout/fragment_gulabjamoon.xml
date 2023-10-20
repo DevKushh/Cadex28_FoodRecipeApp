@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/GulabJamoonInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/GulabJamoonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/GulabJamoonImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gulabjamoon" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\nFor the Gulab Jamun Balls:
+\n\n• 1 cup milk powder
+\n• 1/4 cup all-purpose flour (maida)
+\n• 1/4 teaspoon baking soda
+\n• 2 tablespoons ghee (clarified butter)
+\n• A few tablespoons of milk (approximately 3-4 tablespoons) to form the dough
+\n\nFor the Sugar Syrup:
+\n\n• 1.5 cups sugar
+\n• 1 cup water
+\n• 1/2 teaspoon cardamom powder
+\n• A few saffron strands (optional)
+\n• A few drops of rose water (optional)
+\n• Vegetable oil or ghee for frying
+\n\nProcedure:
+\n\nFor the Sugar Syrup:
+\n1. In a wide, heavy-bottomed pan, combine the sugar and water. Bring it to a boil and let it simmer for about 5-7 minutes to form a slightly sticky syrup. Add cardamom powder and saffron strands (if using). Optionally, add a few drops of rose water for flavor. Remove it from heat and set it aside.
+\n\nFor the Gulab Jamun Balls:
+\n\n1. In a mixing bowl, combine milk powder, all-purpose flour, and baking soda.
+\n2. Add ghee to the dry ingredients and mix well. The mixture should resemble breadcrumbs.
+\n3. Gradually add a few tablespoons of milk to the mixture, kneading it into a soft, smooth dough. Be careful not to over-knead.
+\n4. Divide the dough into 6 equal portions and roll them into smooth balls, ensuring there are no cracks.
+\n\nFrying the Gulab Jamun:
+\n\n1. Heat enough vegetable oil or ghee in a deep pan over medium heat. The oil should be moderately hot, not too hot, as this will help cook the Gulab Jamun evenly.
+\n2. Gently slide the prepared Gulab Jamun balls into the hot oil and fry them on low to medium heat, stirring occasionally. The Gulab Jamun will take about 810 minutes to turn golden brown. Be patient and do not rush the frying process. If the oil is too hot, the Gulab Jamun may not cook through evenly.
+\n3. Once they are a deep golden brown, remove them from the oil using a slotted spoon and drain on a paper towel.
+\n4. Immediately transfer the hot Gulab Jamun into the warm sugar syrup. Let them soak for at least an hour so that they absorb the syrup and become soft and spongy."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ChickenKebabInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/KebabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/KebabImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kabab" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\nFor the Chicken Marinade:
+\n\n• 500g boneless chicken, cut into bite-sized pieces
+\n• 1 cup plain yogurt
+\n• 2 tablespoons ginger-garlic paste
+\n• 1 teaspoon red chili powder (adjust to your spice preference)
+\n• 1 teaspoon turmeric powder
+\n• 1 teaspoon garam masala
+\n• 1 tablespoon lemon juice
+\n• Salt to taste
+\n\nFor the Kabab Mixture:
+\n\n• 1 large onion, finely chopped
+\n• 1/2 cup fresh coriander leaves, chopped
+\n• 1/2 cup fresh mint leaves, chopped
+\n• 2-3 green chilies, finely chopped (adjust to your spice preference)
+\n• 2 tablespoons besan (gram flour)
+\n• 2 tablespoons vegetable oil
+\n• Skewers (wooden skewers soaked in water for 30 minutes or metal skewers)
+\n\nProcedure:
+\n\n1. In a large bowl, combine all the ingredients for the chicken marinade. Mix well and add the chicken pieces. Make sure they are coated with the marinade. Let the chicken marinate for at least 1 hour, but longer marination will give better results, so if possible, marinate for 4-6 hours or overnight in the refrigerator.
+\n2. In a separate pan, heat the vegetable oil over medium heat. Add the finely chopped onion and sauté until it becomes soft and golden brown.
+\n3. Add the besan (gram flour) and sauté for another 2-3 minutes until it turns golden and loses the raw taste.
+\n4. Remove the pan from heat and allow the mixture to cool.
+\n5. Once cooled, add this onion-besan mixture to the marinated chicken along with fresh coriander leaves, fresh mint leaves, and green chilies.
+\n6. Preheat your grill or oven to medium-high heat.
+\n7. Thread the marinated chicken pieces onto the skewers, leaving a little space between each piece.
+\n8. Grill the chicken kebabs for about 15-20 minutes, turning occasionally, until they are cooked through and have a nice char on the outside.
+\n9. Serve the chicken kebabs hot with naan, roti, or rice, and accompanied by mint chutney or yogurt-based raita.
+\n\n\nEnjoy your homemade chicken kababs for 5 members! "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

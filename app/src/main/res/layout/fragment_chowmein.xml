@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ChowmeinInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ChowmeinLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ChowmeinImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/chowmein" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\n•  10 ounces (about 300g) of Chinese egg noodles or chow mein noodles
+\n•  2 tablespoons vegetable oil
+\n•  1 pound (about 450g) boneless chicken, beef, pork, shrimp, or tofu (cut into bite-sized pieces)
+\n•  2 cups thinly sliced cabbage
+\n•  1 cup sliced bell peppers (red, green, or a mix of colors)
+\n•  1 cup sliced carrots
+\n•  1 cup sliced mushrooms (optional)
+\n•  1 cup bean sprouts (optional)
+\n•  4 cloves garlic, minced
+\n• 1-inch piece of fresh ginger, grated or minced
+\n• 1/4 cup low-sodium soy sauce
+\n• 2 tablespoons oyster sauce
+\n• 1 tablespoon sugar
+\n• 1 teaspoon sesame oil
+\n• Salt and pepper to taste
+\n• Chopped green onions for garnish
+\n\nProcedure:
+\n\n1. Cook the Noodles:
+\n\n• Cook the noodles according to the package instructions until they are just al
+dente. Drain and rinse with cold water to stop the cooking process. Toss the
+noodles with a little oil to prevent sticking and set them aside.
+\n\n2. Prepare the Sauce:
+\n\n• In a small bowl, mix together the soy sauce, oyster sauce, sugar, and sesame oil. Set the sauce aside.
+\n\n3. Stir-Fry the Protein:
+\n\n• Heat a wok or large skillet over high heat. Add 1 tablespoon of vegetable oil.
+\n• Add the protein (chicken, beef, pork, shrimp, or tofu) and stir-fry until cooked through. If using tofu, ensure it's lightly browned. Remove the protein from the wok and set it aside.
+\n\n4. Stir-Fry the Vegetables:
+\n\n• Add the remaining tablespoon of oil to the wok.
+\n• Add the garlic and ginger, and stir-fry for about 30 seconds until fragrant.
+\n• Add the sliced cabbage, bell peppers, carrots, mushrooms, and bean sprouts (if using). Stir-fry for 2-3 minutes until the vegetables are crisp-tender.
+\n\n5. Combine and Cook:
+\n\n• Return the protein to the wok with the stir-fried vegetables.
+\n• Add the cooked noodles and the sauce mixture. Toss everything together and stir-fry for another 2-3 minutes until everything is heated through and well combined.
+\n\n6. Season and Serve:
+\n\n• Taste the Chow Mein and adjust the seasoning with salt and pepper if needed.
+\n• Serve hot, garnished with chopped green onions.
+\n\n\nEnjoy your homemade Chow Mein for 5 members. You can also customize this dish by adding other vegetables or your choice of protein."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

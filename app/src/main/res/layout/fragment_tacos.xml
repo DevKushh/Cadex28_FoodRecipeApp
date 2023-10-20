@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/TacosInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/TacosLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/SalsaImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tacos" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\nFor the Filling:
+\n\n• 1 pound ground beef (or your choice of protein)
+\n• 1 medium onion, finely chopped
+\n• 2 cloves garlic, minced
+\n• 1 packet of taco seasoning mix or make your own with chili powder, cumin, paprika, and oregano
+\n• 1 cup diced tomatoes (canned or fresh)
+\n• Salt and pepper to taste
+\n• Cooking oil
+\n\nFor Assembling:
+\n\n• 10 small soft taco shells or tortillas
+\n• Shredded lettuce
+\n• Diced tomatoes
+\n• Grated cheddar or Monterey Jack cheese
+\n• Sliced jalapeños (optional)
+\n• Sour cream
+\n• Salsa
+\n• Guacamole
+\n• Sliced black olives (optional)
+\n• Sliced green onions (optional)
+\n\nProcedure:
+\n\n1. Prepare the Filling:
+\n\n• In a skillet, heat a small amount of cooking oil over medium-high heat.
+\n• Add the chopped onions and garlic and sauté until they become translucent.
+\n• Add the ground beef (or your choice of protein) and cook it, breaking it apart with a spatula, until it's browned and cooked through.
+\n• Drain any excess fat from the skillet.
+\n• Add the taco seasoning mix (or your homemade seasoning blend) and diced tomatoes.
+Stir well and cook for a few minutes until the mixture is heated through.
+\n• Season with salt and pepper to taste.
+\n\n2. Assemble the Tacos:
+\n\n• Warm the taco shells or tortillas according to the package instructions or by heating them
+in a dry skillet for a few seconds on each side.
+\n• Place the warm taco shells on serving plates or a platter.
+\n• Spoon the cooked filling into the taco shells, dividing it evenly among them.
+\n• Top each taco with shredded lettuce, diced tomatoes, grated cheese, and any other
+desired toppings like jalapeños, sour cream, salsa, guacamole, black olives, or green
+onions.
+\n\n3. Serve:
+\n\n• Serve the tacos hot and let each member customize their taco with their preferred
+toppings.
+\n\n\nEnjoy your homemade tacos for 5 members! You can also offer a variety of protein options like
+grilled chicken, pulled pork, or sautéed shrimp to cater to different tastes. "
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

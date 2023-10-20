@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CevicheInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/cevicheLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/CevicheImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ceviche" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\n•  1 pound fresh white fish (such as tilapia or snapper), shrimp, or a combination of seafood, diced into small pieces
+\n•  1 cup freshly squeezed lime or lemon juice (about 10-12 limes or lemons)
+\n•  1 red onion, finely chopped
+\n•  2-3 tomatoes, seeded and diced
+\n•  1-2 jalapeño peppers, finely chopped (adjust to your spice preference)
+\n•  1/2 cup fresh cilantro, chopped
+\n•  1 cucumber, diced (optional)
+\n•  Salt and freshly ground black pepper, to taste
+\n•  Avocado slices for garnish (optional)
+\n•  Tortilla chips or tostadas for serving
+\n\nProcedure:
+\n\n1.  Place the diced fish or seafood in a non-reactive (glass or ceramic) bowl.
+\n2.  Pour the freshly squeezed lime or lemon juice over the fish, making sure it's completely covered. The acid from the citrus juice will cook the fish by denaturing the proteins. The fish will turn opaque and firm, which typically takes about 15-20 minutes. Make sure all the pieces are submerged.
+\n3.  While the fish is cooking,prepare the other ingredients. Chop the red onion, tomatoes,jalapeño peppers, and cilantro. If you like, add diced cucumber for extra freshness andcrunch.
+\n4.  After the fish has cooked, drain off most of the lime or lemon juice. You want a little citrus juice to remain with the fish for flavor, but you don't want it to be swimming in juice.
+\n5.  Gently fold in the chopped red onion, tomatoes, jalapeño peppers, and cilantro into the fish. Season with salt and freshly ground black pepper to taste.
+\n6.  Cover the ceviche and refrigerate it for at least 30 minutes to allow the flavors to meld.
+\n7.  Before serving, taste and adjust the seasoning, adding more salt or lime juice if needed.
+\n8.  Serve the ceviche in individual bowls or on tostadas (crispy tortillas). Garnish with avocado slices, if desired.
+\n\nEnjoy your homemade ceviche as a refreshing appetizer or light meal for 5 members. It's best served fresh and cold."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

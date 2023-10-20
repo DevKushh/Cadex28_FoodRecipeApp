@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/PineapplebunInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/PineappplebunLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/PinapplebunImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pineapplebun" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients:
+\n\nFor the Dough:
+\n\n• 3 cups all-purpose flour
+\n• 1/3 cup granulated sugar
+\n• 1/2 teaspoon salt
+\n• 2 teaspoons active dry yeast
+\n• 1/2 cup warm milk
+\n• 1/4 cup unsalted butter, softened
+\n• 1 egg
+\n\nFor the Pineapple Topping:
+\n\n• 1/2 cup all-purpose flour
+\n• 1/2 cup granulated sugar
+\n• 1/4 cup unsalted butter, softened
+\n• 1 egg
+\n• 1/2 teaspoon baking powder
+\n• 1/2 teaspoon vanilla extract
+\n• A few drops of yellow food coloring (optional)
+\n\nProcedure:
+\n\nFor the Dough:
+\n\n1. In a small bowl, combine the warm milk and active dry yeast. Let it sit for about 5-10 minutes until it becomes frothy.
+\n2. In a large mixing bowl, combine the flour, sugar, and salt.
+\n3. Add the frothy yeast mixture, softened butter, and egg to the dry ingredients.
+\n4. Mix everything together to form a sticky dough.
+\n5. Knead the dough on a floured surface for about 5-7 minutes until it becomes smooth and elastic. If it's too sticky, you can add a little more flour.
+\n6. Place the dough in a greased bowl, cover it with a clean kitchen towel, and let it rise in a warm place for about 1-2 hours or until it has doubled in size.
+\n\nFor the Pineapple Topping:
+\n\n1. In a mixing bowl, combine all the topping ingredients, including flour, sugar, butter, egg, baking powder, vanilla extract, and yellow food coloring (if using). Mix until you have a smooth, thick paste.
+\n\nAssembling the Pineapple Buns:
+\n\n1. Once the dough has risen, punch it down to release any air bubbles.
+\n2. Divide the dough into 5 equal portions and shape them into balls.
+\n3. Roll each dough ball into a round bun.
+\n4. Place the buns on a baking sheet lined with parchment paper.
+\n5. Divide the pineapple topping into 5 equal portions and flatten each portion into a disc.
+\n6. Place a disc of topping on top of each bun, pressing it down gently to adhere.
+\n\nBaking the Pineapple Buns:
+\n\n1. Preheat your oven to 350°F (175°C).
+\n2. Bake the buns in the preheated oven for about 20-25 minutes or until they turn golden brown and the topping is slightly crispy.
+\n3. Remove the buns from the oven and let them cool on a wire rack.
+\n\n\nEnjoy your homemade Pineapple Buns! They can be served as a sweet treat for breakfast or as a snack.
+."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

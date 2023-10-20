@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/PizzabunInstructionBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/PizzaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="#171616"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/PizzaImgBox"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pizza" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#171616"
+            app:cardBackgroundColor="#171616">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#171616"
+                android:bufferType="spannable"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="20dp"
+                android:text="\nIngredients
+\n\nFor the Pizza Dough:
+\n• 2 1/4 teaspoons (1 packet) active dry yeast
+\n• 1 teaspoon sugar
+\n• 1 cup warm water (about 110°F or 43°C)
+\n• 2 1/2 cups all-purpose flour
+\n• 1 teaspoon salt
+\n• 2 tablespoons olive oil
+\n\nFor the Pizza Toppings:
+\n\n 1 cup pizza sauce (store-bought or homemade)
+\n• 2-3 cups shredded mozzarella cheese
+\n• Your favorite pizza toppings (e.g., pepperoni, mushrooms, bell peppers, olives, onions, etc.)
+\n• Fresh basil leaves (optional, for garnish)
+\n\nProcedure:
+\n\nFor the Pizza Dough:
+\n1. In a small bowl, combine the yeast, sugar, and warm water. Let it sit for about 5-10 minutes until it becomes frothy, indicating that the yeast is active.
+\n2. In a large mixing bowl, combine the all-purpose flour and salt. Pour in the yeast mixture and olive oil. Mix to form a dough.
+\n3. Knead the dough on a floured surface for about 5-7 minutes until it becomes smooth and elastic. Form it into a ball.
+\n4. Place the dough in a lightly oiled bowl, cover it with a clean kitchen towel or plastic wrap, and let it rise in a warm place for about 1-1.5 hours or until it has doubled in size.
+\n\nFor Assembling and Baking the Pizza:
+\n\n1. Preheat your oven to the highest temperature it can go (usually around 500550°F or 260-290°C). If you have a pizza stone, place it in the oven while preheating.
+\n2. Punch down the risen dough and divide it into 5 equal portions (or fewer if you want larger pizzas).
+\n3. Roll out each portion of dough on a floured surface into a round or rectangular pizza shape, depending on your preference.
+\n4. Place each rolled-out pizza dough on a pizza peel or a baking sheet lined with parchment paper.
+\n5. Spread a thin layer of pizza sauce on each pizza, leaving a small border around the edges.
+\n6. Sprinkle a generous amount of shredded mozzarella cheese over the sauce.
+\n7. Add your desired toppings. Be creative and have fun!
+\n8. Carefully transfer the pizza (with parchment paper if using a baking sheet) to the preheated oven or pizza stone.
+\n9. Bake for about 10-15 minutes, or until the crust is golden and the cheese is bubbling and slightly browned.
+\n10. Remove the pizza from the oven and let it cool for a minute. If desired, garnish with fresh basil leaves.
+\n11. Slice and serve your homemade pizzas to your family or guests. Enjoy!
+Repeat the process for each portion of dough to make individual pizzas for 5 members.
+\n\n\nYou can customize each pizza with different toppings to suit everyone's
+preferences"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:drawableTintMode="src_in" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
